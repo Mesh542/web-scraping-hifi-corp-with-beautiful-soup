@@ -85,6 +85,7 @@ def main():
 
     print(f'{sheet.title} saved.')
     excel.save(f'{sheet.title}.xlsx')
+    excel.close()
 
 
 if __name__ == '__main__':
